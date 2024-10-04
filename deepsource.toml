@@ -1,0 +1,12 @@
+version = 1
+
+[[analyzers]]  
+name = "rust"  
+enabled = true  
+dependency_file_paths = [  
+  "requirements.txt",  
+  "Pipfile"  
+]
+[[transformers]]  
+name = "rustfmt"  
+enabled = true
